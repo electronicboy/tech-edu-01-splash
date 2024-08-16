@@ -33,7 +33,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-content: center;
-  min-width: 100svh;
+  min-width: 100svw;
   min-height: 100svh;
 }
 
