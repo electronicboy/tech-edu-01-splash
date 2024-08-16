@@ -1,0 +1,49 @@
+/*
+    #ff0000, #00ff00, #0000ff
+    */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* #container {
+  border: black 2px solid;
+  border-radius: 25px;
+  width: 1360px;
+  height: 814px;
+} */
+
+#leader > h1 {
+  color: #ff0000;
+  font-size: 4svh;
+  margin: 30px;
+}
+
+#leader > h2 {
+  color: #00ff00;
+}
+
+#leader > h3 {
+  color: #0000ff;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  min-width: 100svh;
+  min-height: 100svh;
+}
+
+#leader {
+    text-align: center;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3svh;
+    width: 70svh;
+}
